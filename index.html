@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+<title>Samy Chahri — Data Visualisation</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js" defer></script>
+<script src="script.js" defer></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+<a href="index.html" class="logo">SC / DATAVIZ</a>
+
+<nav id="main-nav" aria-label="Main navigation">
+    <ul class="nav-links">
+    <li><a href="index.html" aria-current="page">Home</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="header-actions">
+    <button type="button" id="theme-toggle"
+            aria-label="Switch to light mode">
+    <span class="theme-icon" aria-hidden="true">☀</span>
+    <span class="theme-label">Light mode</span>
+    </button>
+
+    <button
+    type="button"
+    id="menu-toggle"
+    aria-label="Open menu"
+    aria-controls="main-nav"
+    aria-expanded="false"
+    >
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+    </button>
+</div>
+</header>
+
+<main>
+<section class="hero">
+    <div class="hero-content">
+    <p class="eyebrow">SAMY CHAHRI — BRUSSELS, BELGIUM</p>
+
+    <h1>Making data <span>visible.</span></h1>
+    <h2 class="hero-intro">Turning complex information into clear and meaningful visual stories.</h2>
+    <p class="hero-description">
+    Data visualisation
+    <span class="separator">///</span>
+    Information design
+    <span class="separator">///</span>
+    Cartography
+</p>
+</div>
+    <div class="hero-visual">
+    <svg
+    id="hero-svg"
+    viewBox="0 35 600 365"
+    role="img"
+    aria-label="Abstract visualisation of flowing data lines"
+    ></svg>
+</div>
+</section>
+</main>
+<footer>
+<p>© 2026 Samy Chahri. All rights reserved.</p>
+<p class="footer-location">BRUSSELS, BE</p>
+</footer>
+</body>
+</html>
